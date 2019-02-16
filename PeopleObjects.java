@@ -1,14 +1,17 @@
 public class PeopleObjects{
-	/* For practice, make the people objects rather than just a list of names. 
+	// For practice, make the people objects rather than just a list of names.
 	
-	There will be difficulty for me in accessing their names in an ArrayList and user input. 
+	private String name;
+	private String birthMonth;
+	private int birthDay;
+	private int birthYear;
 	
-	We should also practice getters and setters with this, which will make it more difficult to use ArrayList*/
+	void setName(String myName){
+		name = myName;
+	}
 	
-	String name;
-	String birthMonth;
-	int birthDay;
-	int birthYear;
-	
+	String getName(){
+		return name;
+	}
 	
 }
